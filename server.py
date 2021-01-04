@@ -20,7 +20,7 @@ class Radios(Resource):
         radios[id] = args
         #Creating location for the radio and assigning the defaut value to it. (undefined)
         locations[id] = {"location": "undefined"}
-         return None
+        return None
 #Setting and retrieving locations
 class Location(Resource):
     def get(self, id):
